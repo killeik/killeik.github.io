@@ -1,4 +1,26 @@
-baseURL: https://example.org/
+baseURL: https://killeik.github.io/
 languageCode: en-us
-title: My New Hugo Site
-theme: ["PaperMod"]
+title: killeik's corner
+theme: PaperMod
+
+params:
+  assets: 
+    favicon: /favicon.svg
+  profileMode:
+    enabled: true
+    title: "My cupboard under the stairs" # optional default will be site title
+    imageUrl: /favicon.svg # optional 
+    subtitle: "You can find me on:"
+    buttons:
+      - name: Archive
+        url: "/archive"
+
+  socialIcons: # optional
+    - name: telegram
+      url: https://t.me/sixwingedkilleik
+    - name: spotify
+      url: https://open.spotify.com/user/tqaui7ujqg0cuyqgqro11dm5f
+    - name: github
+      url: https://github.com/killeik
+    - name: email
+      url: mailto://sixwingedkilleik@gmail.com
